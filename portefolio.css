@@ -1492,29 +1492,29 @@ form .contact-button:hover{
 	.sections{
 		width:400px;}
 	header p i{
-		margin-right:5px;
+		margin-leftt:100px;
 	}
 	.home-content{
-		margin-left:50px;
+		margin-left:100px;
 	}
 	.contact-content form{
-	width:650px;
-	height:800px;
+	width:450px;
+	height:500px;
 	text-align:center;
 }
 
 input{
 	margin-bottom:20px;
-	width:200px;
-	height:20px;
+	width:300px;
+	height:30px;
 	background-color:#323946;
-	border-radius:3px;
+	border-radius:5px;
 	margin-top:0px;
 	border-style:solid;
 }
 .contact-content textarea{
-	width:200px;
-	height:100px;
+	width:300px;
+	height:150px;
 	padding-bottom:20px;
 	background-color:#323946;
 	border-radius:6px;
@@ -1523,8 +1523,8 @@ input{
 form .contact-button{
 	margin-top:20px;
 	width:150px;
-	height:20px;
-	border-radius:6px;
+	height:40px;
+	border-radius:7px;
 	background-color:#0ef;
 	border-color:#0ef;
 	color:#1f242d;
@@ -1546,6 +1546,7 @@ form .contact-button:hover{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
