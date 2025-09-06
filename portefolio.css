@@ -1645,7 +1645,9 @@ form .contact-button:hover{
 form{
 	margin-left:10px;
 }
-
+.footer-text p{
+	font-size:12px;
+}
 	
 }
 
@@ -1659,6 +1661,7 @@ form{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
