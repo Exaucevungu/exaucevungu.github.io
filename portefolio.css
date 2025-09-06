@@ -1487,7 +1487,7 @@ form .contact-button:hover{
 
 }
 /* #################################### MEDIA QUERY  ########################*/
-@media (max-width:400px){
+@media screen and (max-width:400px){
 	
 	.sections{
 		width:400px;}
@@ -1546,6 +1546,7 @@ form .contact-button:hover{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
