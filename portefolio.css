@@ -1,10 +1,22 @@
 
 
 /*########################  HEADER SECTION #########################*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+	scroll-behavior:smooth;
+	
+}
+html{
+	overflow-x:hidden;
+}
 
 html{
 	font-family:'poppins';
 }
+
 header{
 	width:100%;
 	height:100px;
@@ -62,7 +74,6 @@ header nav a:hover{
 .home .home-content h3{
 	color:#fff;
 	font-size:30px;
-	line-height:5px;
 }
 .home .home-content h3 span{
 	color:#0ef;
@@ -70,7 +81,6 @@ header nav a:hover{
 .home .home-content h1{
 	color:#fff;
 	font-size:50px;
-	line-height:5px;
 }
 
 .home .home-content p{
@@ -94,7 +104,6 @@ header nav a:hover{
 	border-radius:50%;
 	margin-left:8px;
 	padding-left:2px;
-	padding-top:1px;
 	color:#0ef;
 	line-height:15px;
 }
@@ -182,7 +191,6 @@ header nav a:hover{
 .about-content h3{
 	font-size:20px;
 	color:#fff;
-	line-height:10px;
 	
 }
 .about-content p{
@@ -558,7 +566,6 @@ form .contact-button:hover{
 .home .home-content h3{
 	color:#fff;
 	font-size:20px;
-	line-height:5px;
 }
 .home .home-content h3 span{
 	color:#0ef;
@@ -566,7 +573,6 @@ form .contact-button:hover{
 .home .home-content h1{
 	color:#fff;
 	font-size:30px;
-	line-height:5px;
 }
 
 .home .home-content p{
@@ -586,12 +592,11 @@ form .contact-button:hover{
 }
 .home .home-content .social-media p{
 	border-style:solid;
-	width:20px;
-	height:20px;
+	width:30px;
+	height:30px;
 	border-radius:50%;
-	margin-left:10px;
 	color:#0ef;
-	padding-bottom:8px;
+	padding-bottom:3px;
 }
 .social-media p a i{
 	margin-top:0px;
@@ -668,7 +673,6 @@ form .contact-button:hover{
 .about-content h3{
 	font-size:20px;
 	color:#fff;
-	line-height:10px;
 	
 }
 .about-content p{
@@ -815,7 +819,6 @@ form .contact-button:hover{
 .home .home-content h3{
 	color:#fff;
 	font-size:17px;
-	line-height:5px;
 }
 .home .home-content h3 span{
 	color:#0ef;
@@ -823,7 +826,6 @@ form .contact-button:hover{
 .home .home-content h1{
 	color:#fff;
 	font-size:30px;
-	line-height:5px;
 }
 
 .home .home-content p{
@@ -842,10 +844,9 @@ form .contact-button:hover{
 }
 .home .home-content .social-media p{
 	border-style:solid;
-	width:20px;
-	height:20px;
+	width:30px;
+	height:30px;
 	border-radius:50%;
-	margin-left:10px;
 	color:#0ef;
 }
 .home .home-content button{
@@ -920,8 +921,6 @@ form .contact-button:hover{
 .about-content h3{
 	font-size:20px;
 	color:#fff;
-	line-height:10px;
-	
 }
 .about-content p{
 	width:300px;
@@ -1156,18 +1155,17 @@ form .contact-button:hover{
 	}
 		.home{
 	width:100%;
-	height:900px;
+	height:100px;
 	padding-top:150px;
 	display:block;
 	background-color:#1f242d;
 }
 .home .home-content{
-	margin-left:20px;
+	margin-left:100px;
 }
 .home .home-content h3{
 	color:#fff;
 	font-size:20px;
-	line-height:5px;
 }
 .home .home-content h3 span{
 	color:#0ef;
@@ -1175,7 +1173,6 @@ form .contact-button:hover{
 .home .home-content h1{
 	color:#fff;
 	font-size:35px;
-	line-height:5px;
 }
 
 .home .home-content p{
@@ -1194,10 +1191,9 @@ form .contact-button:hover{
 	margin-top:10px;
 }
 .home .home-content .social-media p{
-	width:20px;
-	height:20px;
+	width:30px;
+	height:30px;
 	border-radius:50%;
-	margin-left:10px;
 	color:#0ef;
 }
 .home .home-content button{
@@ -1241,7 +1237,7 @@ form .contact-button:hover{
 .about{
 	background-color:#323946;
 	width:100%;
-	height:800px;
+	height:1000px;
 	display:flex;
 	flex-direction:column-reverse;
 	
@@ -1274,7 +1270,6 @@ form .contact-button:hover{
 .about-content h3{
 	font-size:20px;
 	color:#fff;
-	line-height:10px;
 	
 }
 .about-content p{
@@ -1553,6 +1548,7 @@ form .contact-button:hover{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
