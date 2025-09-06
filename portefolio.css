@@ -1490,7 +1490,7 @@ form .contact-button:hover{
 		margin-leftt:50px;
 	}
 	header p fa-mark{
-		margin-leftt:50px;
+		margin-leftt:100px;
 	}
 	
 	.contact-content form{
@@ -1532,12 +1532,120 @@ form .contact-button:hover{
 
 .home .home-content{
 	width:270px;
-	margin-left:70px;
+	margin-left:20px;
 }
+	
 .about .about-content{
 	width:270px;
-	margin-left:70px;
+	margin-left:20px;
 }
+	.home .home-img{
+	width:250px;
+	height:300px;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+/* ############ SERVICES #########*/
+	.service{
+	width:100%;
+	height:800px;
+	background-color:#1f242d;
+	padding-top:50px;
+}
+.service h2{
+	font-size:30px;
+	color:#fff;
+	margin-top:50px;
+	padding-bottom:20px;
+	text-align:center;
+}
+.service h2 span{
+	color:#0ef;
+}
+.service-content{
+	width:350px;
+	height:500px;
+	display:flex;
+	margin-left:2px;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+}
+/*.swiper-wrapper{
+	width:600px;
+	height:500px;
+}*/
+.service-content .service-box{
+	width:100%;
+	height:100%;
+	display:block;
+	user-select:none;
+	border-radius:20px;
+	border-style:solid;
+	border-color:transparent;
+	background-color:#323946;
+	cursor:pointer;
+	box-shadow:0px 0px 10px #323946;
+	transition:.9s;
+}
+.service-content .service-box:hover{
+	border-color:#0ef;
+	border-style:solid;
+}
+
+.service-content .service-box a i{
+	font-size:45px;
+	color:#fff;
+	margin-top:10px;
+	margin-left:45%;
+	
+}
+.service-content .service-box a span{
+	font-size:35px;
+	color:#fff;
+	margin-top:10px;
+	margin-left:45%;
+	
+}
+.service-content .service-box h3{
+	font-size:25px;
+	color:#fff;
+	text-align:center;
+}
+.service-content .service-box p{
+	width:300px;
+	height:200px;
+	text-align:center;
+	overflow-wrap:break-word;
+	color:#fff;
+	margin-left:30px;
+}
+.service-content .service-box button{
+	width:120px;
+	height:40px;
+	background-color:#0ef;
+	border-color:#0ef;
+	box-shadow:0px 0px 20px #0ef;
+	border-radius:10px;
+	margin-top:20px;
+	margin-left:30px;
+}
+.service-content .service-box button a{
+	color:#1f242d;
+	text-decoration:none;
+}
+.service-content .service-box button:hover{
+	box-shadow:none;
+}
+	.project-content .project-box{
+		margin-left:10px;
+}
+
+form{
+	margin-left:10px;
+}
+
 	
 }
 
@@ -1551,6 +1659,7 @@ form .contact-button:hover{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
