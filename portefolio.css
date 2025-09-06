@@ -1487,10 +1487,10 @@ form .contact-button:hover{
 
 }
 /* #################################### MEDIA QUERY  ########################*/
-@media screen and (max-width:400px){
+@media (max-width:500px){
 	
 	.sections{
-		width:400px;}
+		width:500px;}
 	header p i{
 		margin-right:5px;
 	}
@@ -1510,6 +1510,7 @@ form .contact-button:hover{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
