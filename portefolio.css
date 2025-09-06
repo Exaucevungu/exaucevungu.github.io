@@ -1494,9 +1494,7 @@ form .contact-button:hover{
 	header p i{
 		margin-leftt:100px;
 	}
-	.home-content{
-		margin-left:100px;
-	}
+	
 	.contact-content form{
 	width:450px;
 	height:500px;
@@ -1533,6 +1531,15 @@ form .contact-button{
 form .contact-button:hover{
 	box-shadow:none;
 }
+
+.home .home-content{
+	width:270px;
+	margin-left:70px;
+}
+.about .about-content{
+	width:270px;
+	margin-left:70px;
+}
 	
 }
 
@@ -1546,6 +1553,7 @@ form .contact-button:hover{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
