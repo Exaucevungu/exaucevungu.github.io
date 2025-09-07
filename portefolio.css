@@ -1137,6 +1137,9 @@ form .contact-button:hover{
 		height:300px;
 		margin-bottom:80px;
 	}
+	header p .x{
+		display:none;
+	}
 	header .menu a{
 		width:400px;
 		height:40px;
@@ -1681,6 +1684,7 @@ form{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
