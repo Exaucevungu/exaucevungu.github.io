@@ -1,7 +1,7 @@
 
 
 
-const bar = document.getElementById("bars");
+const bar = document.getElementById("bar");
 const menu = document.getElementById("menu");
 const x = document.getElementById("x");
 const header = document.getElementById("header");
@@ -13,7 +13,7 @@ html.addEventListener("onload", phrase);
 function phrase(){
 	alert("Welcome to my portfolio!!")
 }
-bars.addEventListener("click", mark);
+bar.addEventListener("click", mark);
 
 function mark(){
 	x.style.display = "block"
@@ -33,6 +33,7 @@ function markx(){
 	menu.style.display = "none";
 	
 }
+
 
 
 
