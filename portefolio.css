@@ -32,7 +32,7 @@ header h2{
 	margin-top:30px;
 	font-weight:600;
 }
-header .bars i{
+header p i{
 	background-color:transparent;
 	color:#fff;
 	margin-top:20px;
@@ -1675,6 +1675,7 @@ form{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
