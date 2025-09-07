@@ -17,6 +17,7 @@ bars.addEventListener("click", mark);
 
 function mark(){
 	x.style.display = "block"
+	x.style.float="right";
 	bars.style.display = "none";
 	header.style.height = "500px";
 	menu.style.display = "flex";
@@ -32,6 +33,7 @@ function markx(){
 	menu.style.display = "none";
 	
 }
+
 
 
 
