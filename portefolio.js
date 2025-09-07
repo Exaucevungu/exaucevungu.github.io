@@ -1,9 +1,9 @@
 
 
 
-const bar = document.querySelector(".fa-bars");
+const bar = document.getElementById("bar");
 const menu = document.getElementById("menu");
-const x = document.querySelector(".fa-xmark");
+const x = document.getElementById("x");
 const header = document.getElementById("header");
 const html = document.getElementById("html");
 var make = window.alert("Welcome to my portfolio!")
@@ -33,6 +33,7 @@ function markx(){
 	menu.style.display = "none";
 	
 }
+
 
 
 
