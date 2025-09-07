@@ -1138,7 +1138,7 @@ form .contact-button:hover{
 		margin-bottom:80px;
 	}
 	header p .x{
-		display:none;
+		display:block;
 	}
 	header .menu a{
 		width:400px;
@@ -1663,7 +1663,7 @@ form .contact-button:hover{
 }
 
 form{
-	margin-right:10px;
+	margin-right:20px;
 }
 .footer-text p{
 	font-size:12px;
@@ -1684,6 +1684,7 @@ form{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
