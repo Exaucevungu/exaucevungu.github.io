@@ -7,7 +7,8 @@ const x = document.getElementById("x");
 const header = document.getElementById("header");
 const html = document.getElementById("html");
 var make = window.alert("Welcome to my portfolio!")
-
+x.style.display = "none";
+bars.style.display= "block";
 html.addEventListener("onload", phrase);
 function phrase(){
 	alert("Welcome to my portfolio!!")
@@ -31,6 +32,7 @@ function markx(){
 	menu.style.display = "none";
 	
 }
+
 
 
 
