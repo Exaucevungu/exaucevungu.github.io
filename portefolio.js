@@ -1,7 +1,7 @@
 
 
 
-const bars = document.getElementById("bar");
+const bar = document.getElementById("bar");
 const menu = document.getElementById("menu");
 const x = document.getElementById("x");
 const header = document.getElementById("header");
@@ -33,6 +33,7 @@ function markx(){
 	menu.style.display = "none";
 	
 }
+
 
 
 
