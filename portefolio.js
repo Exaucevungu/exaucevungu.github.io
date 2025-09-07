@@ -4,14 +4,17 @@
 const bars = document.getElementById("bars");
 const menu = document.getElementById("menu");
 const x = document.getElementById("x");
-const header = document.getElementById("header")
+const header = document.getElementById("header");
+const html = document.getElementById("html");
 
 x.style.display = "none";
-
+html.addEventListener("onload", phrase);
+function phrase(){
+	alert("Welcome to my portfolio!!")
+}
 bars.addEventListener("click", mark);
 
 function mark(){
-	alert("Hello world!");
 	bars.style.display = "none";
 	x.style.display = "block";
 	header.style.height = "500px";
@@ -22,13 +25,13 @@ function mark(){
 x.addEventListener("click", markx);
 
 function markx(){
-	alert("Hello world!");
 	bars.style.display = "block";
 	x.style.display = "none";
 	header.style.height = "100px";
 	menu.style.display = "none";
 	
 }
+
 
 
 
