@@ -1501,7 +1501,7 @@ service-box a i{
 		width:400px;}
 	header p i{
 		margin-top:40px
-		margin-right:50px;
+		margin-right:80px;
 		float:right;
 	}
 	
@@ -1689,6 +1689,7 @@ form{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
