@@ -14,8 +14,8 @@ function phrase(){
 bars.addEventListener("click", mark);
 
 function mark(){
+	x.style.display = "block"
 	bars.style.display = "none";
-	x.style.display = "block";
 	header.style.height = "500px";
 	menu.style.display = "flex";
 	menu.style.flexDirection= "column";
@@ -30,6 +30,7 @@ function markx(){
 	menu.style.display = "none";
 	
 }
+
 
 
 
