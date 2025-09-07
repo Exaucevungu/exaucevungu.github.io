@@ -1115,8 +1115,9 @@ form .contact-button:hover{
 		grid-template-columns:repeat(2,1fr);
 		gap:1px;
 	}
-	header .bars i{
-		margin-right:100px;
+	header p i{
+		margin-top:40px
+		margin-right:80px;
 		float:right;
 	}
 	header h2{
@@ -1493,11 +1494,10 @@ service-box a i{
 	
 	.sections{
 		width:400px;}
-	header p fa-bars{
-		margin-leftt:50px;
-	}
-	header p fa-mark{
-		margin-leftt:100px;
+	header p i{
+		margin-top:40px
+		margin-right:50px;
+		float:right;
 	}
 	
 	.contact-content form{
@@ -1684,6 +1684,7 @@ form{
     --main-color:#0ef;/*bleu*/
 
 }
+
 
 
 
